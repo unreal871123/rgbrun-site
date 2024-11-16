@@ -1,0 +1,8 @@
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export', 
+  basePath: '/rgbrun-site',
+  assetPrefix: '/rgbrun-site/', // 替换为你的仓库名称
+};
+
+module.exports = nextConfig;
